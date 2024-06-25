@@ -50,7 +50,7 @@ export default function TokenizePage() {
       </form>
       {error && <p style={{ color: "red" }}>{error}</p>}
       {tokens.length > 0 && (
-        <div>
+        <div className="pt-4">
           <ul className="flex flex-col gap-2">
             {tokens.map((token, index) => (
               <li key={index} className="text-sm font-mono text-green-500">
